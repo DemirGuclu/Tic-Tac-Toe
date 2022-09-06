@@ -24,6 +24,10 @@
     font-family: cursive;
 }
 
+.cell:hover {
+    background-color: #db0909f2;
+}
+
 /*body stili*/
 body {
     background-color: rgb(218, 43, 43);
