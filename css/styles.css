@@ -69,8 +69,8 @@ h3 {
 
 button {
     width: 190px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
     display: flex;
     flex-direction: column-reverse;
     flex-wrap: wrap;
