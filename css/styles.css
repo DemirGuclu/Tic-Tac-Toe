@@ -69,8 +69,8 @@ h3 {
 
 button {
     width: 190px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     display: flex;
     flex-direction: column-reverse;
     flex-wrap: wrap;
@@ -99,4 +99,15 @@ h3#Xs {
     bottom: 250px;
     position: absolute;
     left: 0px;
+}
+
+/* maksimum genişlik 800 px (800px altı) iken bu css kuralları geçerlidir
+    800px üstü için bu kurallar uygulanmaz
+*/
+@media (max-width: 800px) {
+    
+    body {
+        background-color: blueviolet;
+    }
+
 }
