@@ -1,4 +1,4 @@
-/*satır stili*/
+/*satÄ±r stili*/
 .row {
     display: flex;
     height: 18vh;
@@ -6,7 +6,7 @@
     flex-direction: row;
 }
 
-/* Hücre stili*/
+/* HÃ¼cre stili*/
 .cell {
     display: flex;
     width: 18vh;
@@ -17,10 +17,10 @@
     background-color: rgb(185, 7, 7);
 }
 
-/*hücre mesafesi stili*/
+/*hÃ¼cre mesafesi stili*/
 .cell span {
     margin: auto;
-    font-size: 5rem;
+    font-size: 11vh;
     font-family: cursive;
 }
 
@@ -63,7 +63,8 @@ h3 {
     background-color: cadetblue;
     display: flex;
     min-width: 25rem;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: center;
 }
 
 
@@ -81,31 +82,33 @@ button {
 }
 
 h3#Os {
-    bottom: 0px;
-    position: absolute;
     margin: 0;
-
 }
 
 h3#Xs {
-    bottom: 85px;
-    position: absolute;
     margin: 0;
-
-
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 #newgamebtn {
-    bottom: 250px;
-    position: absolute;
-    left: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-/* maksimum genişlik 800 px (800px altı) iken bu css kuralları geçerlidir
-    800px üstü için bu kurallar uygulanmaz
+#gamebtn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-basis: auto;
+}
+
+/* maksimum geniÅŸlik 800 px (800px altÄ±) iken bu css kurallarÄ± geÃ§erlidir
+    800px Ã¼stÃ¼ iÃ§in bu kurallar uygulanmaz
 */
 @media (max-width: 800px) {
-    
+
     body {
         background-color: blueviolet;
     }
