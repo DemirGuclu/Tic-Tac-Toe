@@ -30,7 +30,7 @@
 
 /*body stili*/
 body {
-    background-color: rgb(218, 43, 43);
+    background-color: darksalmon;
     margin: 0px;
 }
 
@@ -77,7 +77,7 @@ button {
     align-content: center;
     justify-content: space-evenly;
     align-items: flex-start;
-    background: darksalmon;
+    background: cadetblue;
 }
 
 h3#Os {
