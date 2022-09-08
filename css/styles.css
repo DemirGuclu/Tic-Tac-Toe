@@ -14,7 +14,7 @@
     text-align: center;
     padding: 4px;
     align-self: hover;
-    background-color: rgb(185, 7, 7);
+    background-color: #db0909f2;
 }
 
 /*hÃ¼cre mesafesi stili*/
@@ -25,7 +25,7 @@
 }
 
 .cell:hover {
-    background-color: #db0909f2;
+    background-color:rgb(185, 7, 7);
 }
 
 /*body stili*/
