@@ -70,10 +70,6 @@ h3 {
     min-width: 25rem;
     flex-direction: row;
     justify-content: center;
-    border-width: 2px;
-    border-style: outset;
-    border-color: buttonborder;
-    border-image: initial;
 }
 
 
