@@ -4,7 +4,7 @@ var xscore = document.getElementById("x_score")
 var oscore = document.getElementById("o_score")
 var newgamebtn = document.getElementById("newgamebtn")
 
-// Sabitleri tanımla
+// Sabitleri tanımla 
 const local_xscore_key = "x_score_value"
 const local_oscore_key = "o_score_value"
 
@@ -40,7 +40,7 @@ function makeCellsClickable() {
         var cell = cells[index - 1]
         cell.addEventListener("click", cellClicked)
     }
-
+    //hücreler tıklanabilirse
     AreCellsClickable = true;
 }
 
@@ -129,7 +129,7 @@ function stateControl() {
         // Yatayları kontrol et
         if (cells[index].textContent && cells[index].textContent == cells[index + 1].textContent && cells[index].textContent == cells[index + 2].textContent)
             return endGame(cells[index].textContent)
-    }
+    } 
 
     for (var index = 0; index < 3; index = index + 1) {
         // Dikeyleri kontrol et
